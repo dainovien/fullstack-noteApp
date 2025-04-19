@@ -25,7 +25,7 @@ const UserList = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="title has-text-centered">Daftar Catatan</h1>
+      <h1 className="title has-text-centered">Note Lists</h1>
       <div className="columns is-centered">
         <div className="column is-full">
           <Link to={`add`} className="button is-success mb-3">
