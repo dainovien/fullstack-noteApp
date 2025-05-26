@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -88,25 +87,11 @@ function App() {
   <Route
     path="/register"
     element={<RegisterForm handleRegister={handleRegister} />}
-  />
-</Routes>
-=======
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import UserList from "./components/UserList";
-import AddUser from "./components/AddUser";
-import EditUser from "./components/EditUser";
-
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<UserList/>}/>
-        <Route path="add" element={<AddUser/>}/>
-        <Route path="edit/:id" element={<EditUser/>}/>
+        />
       </Routes>
->>>>>>> e2e287c4057f323e1f06d0d76813ee03d2601a8a
     </BrowserRouter>
   );
 }
+
 
 export default App;
