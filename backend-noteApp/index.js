@@ -22,6 +22,10 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4dfc21cf008d279959ab4ab21e205fd3a1c7978
 // Middleware
 app.use(cookieParser());
 app.use(express.json());
