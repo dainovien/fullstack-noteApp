@@ -1,0 +1,31 @@
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "username": "Adin din",
+    "email": "Adin@gmail.com",
+    "password": "123456",
+    "confPassword": "123456"
+}
+
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+{
+     "email": "Adin@gmail.com",
+     "password": "123456"
+
+}
+
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "username": "M maurel",
+    "email": "maurel@gmail.com",
+}
