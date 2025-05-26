@@ -25,6 +25,7 @@ steps:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+<<<<<<< HEAD
 =======
 steps:
   - name: "gcr.io/cloud-builders/docker"
@@ -53,3 +54,5 @@ steps:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+=======
+>>>>>>> 0a791ad6ba3d8e1a927dbf09364cd588a5db70f7
