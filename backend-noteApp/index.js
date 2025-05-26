@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+<<<<<<< HEAD
 import cookieParser from "cookie-parser";
 import NoteRoute from "./routes/NoteRoute.js";
 import UserRoute from "./routes/UserRoute.js";
@@ -42,3 +43,13 @@ app.get("/health", (req, res) => {
 app.listen(PORT, () =>
   console.log(`Server berjalan di http://localhost:${PORT}`)
 );
+=======
+import UserRoute from "./routes/UserRoute.js";
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+app.use(UserRoute);
+
+app.listen(5000, ()=> console.log('Server up and running...'));
+>>>>>>> e2e287c4057f323e1f06d0d76813ee03d2601a8a

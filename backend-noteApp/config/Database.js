@@ -13,3 +13,4 @@ const db = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
 });
 
 export default db;
+
